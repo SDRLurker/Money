@@ -13,4 +13,11 @@ public class TestCase {
 		product = five.times(3);
 		assertEquals(15, product.amount);
 	}
+	@Test
+	public void testEquality() {
+		// 삼각측량을 이용하려면 예제가 두 개 이상 있어야 코드를 일반화할 수 있음. 
+		assertTrue(new Dollar(5).equals(new Dollar(5)));
+		// $5 != $6
+		assertFalse(new Dollar(5).equals(new Dollar(6)));
+	}
 }

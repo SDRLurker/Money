@@ -7,3 +7,11 @@ amount를 private로 만들기
 <s>Dollar 부작용?</s>
 
 Money 반올림?
+
+<s>equals()</s>
+
+hashCode()
+
+Equal null
+
+Equal object
