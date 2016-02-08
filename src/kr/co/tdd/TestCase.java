@@ -12,7 +12,6 @@ public class TestCase {
 		assertEquals(new Dollar(15), five.times(3));
 	}
 	@Test
-	/* Dollar 테스트를 복사하고 수정함. */
 	public void testFrancMultiplication() {
 		Franc five = new Franc(5);
 		assertEquals(new Franc(10), five.times(2));
@@ -22,5 +21,8 @@ public class TestCase {
 	public void testEquality() {
 		assertTrue(new Dollar(5).equals(new Dollar(5)));
 		assertFalse(new Dollar(5).equals(new Dollar(6)));
+		/* Dollar 테스트를 복사하고 수정함. */
+		assertTrue(new Franc(5).equals(new Franc(5)));
+		assertFalse(new Franc(5).equals(new Franc(6)));
 	}
 }
