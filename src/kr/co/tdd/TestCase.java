@@ -8,9 +8,15 @@ public class TestCase {
 	@Test
 	public void testMultiplication() {
 		Dollar five = new Dollar(5);
-		// Dollar와 Dollar를 비교하도록 함. product 변수 삭제 및 인라인화.
 		assertEquals(new Dollar(10), five.times(2));
 		assertEquals(new Dollar(15), five.times(3));
+	}
+	@Test
+	/* Dollar 테스트를 복사하고 수정함. */
+	public void testFrancMultiplication() {
+		Franc five = new Franc(5);
+		assertEquals(new Franc(10), five.times(2));
+		assertEquals(new Franc(15), five.times(3));
 	}
 	@Test
 	public void testEquality() {

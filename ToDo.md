@@ -15,3 +15,11 @@ hashCode()
 Equal null
 
 Equal object
+
+<s>5CHF X 2 = 10CHF</s>
+
+Dollar/Franc 중복
+
+공용 equals
+
+공용 times
