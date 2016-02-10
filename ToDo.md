@@ -26,6 +26,6 @@ Dollar/Franc 중복
 
 <s>Franc과 Dollar 비교하기</s>
 
-통화?
+<s>통화?</s>
 
 testFrancMultiplication을 지워야 할까?
