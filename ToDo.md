@@ -22,7 +22,7 @@ Dollar/Franc 중복
 
 <s>공용 equals</s>
 
-공용 times
+<s>공용 times</s>
 
 <s>Franc과 Dollar 비교하기</s>
 
